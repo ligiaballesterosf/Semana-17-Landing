@@ -1,0 +1,26 @@
+.sec5-bg {
+    background-image: url("../../img/section_bg_3.jpg");
+    height          : 650px;
+    width           : 100%;
+    background-size : cover;
+
+
+}
+
+.propieties {
+    h4 {
+        color: #daa37f;
+    }
+}
+
+.images-container  {
+    box-sizing: border-box;
+    display: flex;
+    height: 500px;
+    width: 100%;
+
+    img{
+        width: 33.3%;
+        
+    }
+}

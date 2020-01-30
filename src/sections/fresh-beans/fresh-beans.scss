@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Oswald&display=swap');
+
+
+.great-sec {
+    background-image     : url('../../img/section_bg_10.jpg');
+    background-position  : center;
+    background-size      : cover;
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-color     : #fff;
+    height               : 300px;
+    width                : 100%;
+}
+
+.fresh-sec {
+    display   : flex;
+    flex-wrap : wrap;
+    height    : 300px;
+    box-sizing: border-box;
+    .title {
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+    }
+    .image-1{
+        padding         : 0;
+        background-size : cover;
+        background-image: url('../../img/section_bg_9.jpg');
+        width: 50%;
+        box-sizing: border-box;
+        height: 100%;
+        display: inline-block;
+    }
+}
+
+.container-sec-4 {
+    p {
+        color      : #767676;
+        line-height: 23px;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    .titlelink {
+        text-align: center;
+
+    }
+}
